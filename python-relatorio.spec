@@ -32,3 +32,10 @@ PYTHONDONTWRITEBYTECODE=  python setup.py install --root=%{buildroot}
 %files
 %{py_sitedir}/relatorio*
 %doc AUTHORS CHANGES README
+
+
+%changelog
+* Wed Apr 18 2012 Dmitry Mikhirev <dmikhirev@mandriva.org> 0.5.6-1
++ Revision: 791755
+- imported package python-relatorio
+

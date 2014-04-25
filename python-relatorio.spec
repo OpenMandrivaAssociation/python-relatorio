@@ -1,12 +1,13 @@
 Name:		python-relatorio
 Summary:	A templating library able to output odt and pdf files
-Version:	0.5.6
+
+Version:	0.6.0
 Release:	1
 License:	GPLv3+
 Group:		Development/Python
 URL:		http://relatorio.openhex.org/
 Source0:	http://pypi.python.org/packages/source/r/relatorio/relatorio-%{version}.tar.gz
-%py_requires -d
+BuildRequires:  python-devel
 BuildRequires:	python-genshi
 BuildRequires:	python-lxml
 BuildRequires:	python-setuptools
@@ -30,12 +31,8 @@ and report together, find reports by mimetypes/name/python objects.
 PYTHONDONTWRITEBYTECODE=  python setup.py install --root=%{buildroot}
 
 %files
-%{py_sitedir}/relatorio*
+%{py_puresitedir}/relatorio*
 %doc AUTHORS CHANGES README
 
 
-%changelog
-* Wed Apr 18 2012 Dmitry Mikhirev <dmikhirev@mandriva.org> 0.5.6-1
-+ Revision: 791755
-- imported package python-relatorio
 

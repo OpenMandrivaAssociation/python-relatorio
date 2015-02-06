@@ -2,7 +2,7 @@ Name:		python-relatorio
 Summary:	A templating library able to output odt and pdf files
 
 Version:	0.6.0
-Release:	1
+Release:	2
 License:	GPLv3+
 Group:		Development/Python
 URL:		http://relatorio.openhex.org/

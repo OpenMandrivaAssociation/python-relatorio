@@ -1,12 +1,12 @@
 Name:		python-relatorio
 Summary:	A templating library able to output odt and pdf files
 
-Version:	0.6.0
-Release:	2
+Version:	0.9.0
+Release:	1
 License:	GPLv3+
 Group:		Development/Python
 URL:		http://relatorio.openhex.org/
-Source0:	http://pypi.python.org/packages/source/r/relatorio/relatorio-%{version}.tar.gz
+Source0:	https://files.pythonhosted.org/packages/99/42/66f2722399ea31799de75d51561da1a38c6c0247c057e977507b53bbd44d/relatorio-0.9.0.tar.gz
 BuildRequires:  python-devel
 BuildRequires:	python-genshi
 BuildRequires:	python-lxml
